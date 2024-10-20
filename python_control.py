@@ -20,7 +20,24 @@ while result < 100 :
 
 print(result)
 
+#for loop
+print("\n for loop with range parameter 2")
+start = 3
+stop = 11
+step = 2
+for i in range(start, stop) : 
+    print(i)
+
+print("\n for loop with range parameter 1")
+for i in range(stop) : 
+    print(i)
+
+print("\n for loop with range parameter 3")
+for i in range(start, stop, step) : 
+    print(i)
+
 #if
+print("\n if")
 TEMPERATURE_STANDARD = 10
 temperature = 10
 if temperature <= TEMPERATURE_STANDARD:

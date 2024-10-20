@@ -98,7 +98,7 @@ def calculate_change(payment, cost):
     print("10000원 지폐: {}장".format(ten_count))
     print("5000원 지폐: {}장".format(five_count))
     print("1000원 지폐: {}장".format(one_count))
-    
+
 calculate_change(100000, 33000)
 print()
 calculate_change(500000, 378000)    
